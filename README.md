@@ -45,8 +45,8 @@ $ git commit -m "A precise message goes here"
 $ git push origin master
 ```
 
-**Deploy your changes to our production server under Ben's desk**
+**Deploy your changes to Amazon S3**
 
 ```bash
-$ fab deploy
+$ make ship
 ```
