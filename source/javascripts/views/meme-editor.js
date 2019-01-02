@@ -91,7 +91,6 @@ MEME.MemeEditorView = Backbone.View.extend({
     this.$('#text-shadow').prop('checked', d.textShadow);
     this.$('#overlay').find('[value="'+d.overlayColor+'"]').prop('checked', true);
     this.$('#background-color').find('[value="'+d.backgroundColor+'"]').prop('checked', true);
-
   },
 
   events: {

@@ -1,6 +1,13 @@
 <form class="m-editor" id="meme-editor-view">
 
   <fieldset class="m-fieldset">
+        <h2>Size</h2>
+        <select class="aspect-ratio" id="aspect-ratio">
+            <option value="" disabled>Select aspect ratio</option>
+        </select>
+  </fieldset>
+
+  <fieldset class="m-fieldset">
       <h2>Background</h2>
       <h3><label for="background-color">Use a solid color ...</label></h3>
       <div class="m-editor__background-color" id="background-color">
@@ -56,13 +63,6 @@
 
     <h3><label for="credit">Who said it?</label></h3>
     <input id="credit" name="credit" type="text" value="">
-  </fieldset>
-
-  <fieldset class="m-fieldset">
-        <h2>Size</h2>
-        <select class="aspect-ratio" id="aspect-ratio">
-            <option value="" disabled>Select aspect ratio</option>
-        </select>
   </fieldset>
 
 </form>
