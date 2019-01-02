@@ -1,14 +1,14 @@
 <form class="m-editor" id="meme-editor-view">
 
   <fieldset class="m-fieldset">
-        <h2>Size</h2>
+        <h2>1. Choose a size</h2>
         <select class="aspect-ratio" id="aspect-ratio">
             <option value="" disabled>Select aspect ratio</option>
         </select>
   </fieldset>
 
   <fieldset class="m-fieldset">
-      <h2>Background</h2>
+      <h2>2. Set the background</h2>
       <h3><label for="background-color">Use a solid color ...</label></h3>
       <div class="m-editor__background-color" id="background-color">
         <ul class="checkbox-group">
@@ -32,33 +32,27 @@
   </fieldset>
 
   <fieldset class="m-fieldset">
-    <h2>Text</h2>
+    <h2>3. Add text</h2>
 
     <textarea id="headline" name="headline" type="text" value=""></textarea>
-
     <select class="text-align" id="text-align">
         <option value="" disabled>Select alignment</option>
     </select>
-
     <select class="font-size" id="font-size">
-    <option value="" disabled>Select a font size</option>
+        <option value="" disabled>Select a font size</option>
     </select>
-
     <select class="font-family" id="font-family">
-    <option value="" disabled>Select a font</option>
+        <option value="" disabled>Select a font</option>
     </select>
-
     <select class="font-color" id="font-color">
-    <option value="" disabled>Select a font color</option>
+        <option value="" disabled>Select a font color</option>
     </select>
-
     <div class="checkbox-group text-shadow">
-    <input id="text-shadow" name="shadow" type="checkbox">
-    <label for="text-shadow">Text Shadow</label>
+        <input id="text-shadow" name="shadow" type="checkbox">
+        <label for="text-shadow">Text Shadow</label>
     </div>
-
     <select class="watermark" id="watermark">
-    <option value="watermark" disabled>Select a logo</option>
+        <option value="watermark" disabled>Select a logo</option>
     </select>
 
     <h3><label for="credit">Who said it?</label></h3>
