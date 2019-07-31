@@ -90,16 +90,14 @@ var MEME_SETTINGS = {
 
   // Path to the watermark image source, or blank for no watermark:
   // Alternatively, use '<%= asset_data_uri("vox.png") %>' to populate the watermark with base64 data, avoiding Cross-Origin issues.
-  watermarkSrc: '<%= image_path("lat2.png") %>',
+  watermarkSrc: '<%= image_path("logo-lat-stack-white.png") %>',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'Wide white', value: '<%= image_path("lat2.png") %>', data: ''},
-    {text: 'Square white', value: '<%= image_path("lat.png") %>', data: ''},
-    {text: 'Wide black', value: '<%= image_path("lat2-black.png") %>', data: ''},
-    {text: 'Square black', value: '<%= image_path("lat-black.png") %>', data: ''},
+    {text: 'Square white', value: '<%= image_path("logo-lat-stack-white.png") %>', data: ''},
+    {text: 'Square black', value: '<%= image_path("logo-lat-stack-black.png") %>', data: ''},
     {text: 'None', value: '', data:''}
   ],
 
