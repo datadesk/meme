@@ -1,0 +1,14 @@
+---
+title: 📸 Insta Generator
+stylesheet: insta/application
+javascript: insta/application
+---
+<div class="clearfix content" id="meme">
+
+  <h1><%= current_page.data.title %></h1>
+
+  <div class="m-meme">
+    <%= partial "partials/insta/editor" %>
+    <%= partial "partials/insta/canvas" %>
+  </div>
+</div>

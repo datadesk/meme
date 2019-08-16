@@ -1,0 +1,22 @@
+form {
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 18px 0 5px;
+    label {
+      margin-bottom: 0;
+    }
+  }
+
+  .checkbox-group label {
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  textarea {
+    height: 6em;
+  }
+
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import 'compass';
+
+// colors
+$default-text-color     : #4C4E4D;
+$theme-color            : #6f96a8;
+$break-point            : 700px;
+
+@import 'm-meme';
+@import 'm-canvas';
+@import 'm-editor';
+@import 'forms';
+
+h1 {
+  float: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  margin: 50px;
+  text-shadow: none;
+}

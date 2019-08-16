@@ -1,0 +1,22 @@
+$m: '.m-canvas';
+$orange: rgb(255, 153, 51);
+$orange-dark: rgb(229, 137, 45);
+
+#{$m} {
+  @media screen and (min-width: $break-point) {
+    width: 70%;
+  }
+
+  #{$m}__canvas {
+    background: #fcfcfc;
+    canvas {
+      max-width: 100% !important;
+    }
+  }
+
+  #{$m}__download-note {
+    color: #777;
+    font-size: 12px;
+    font-style: italic;
+  }
+}

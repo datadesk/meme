@@ -1,0 +1,51 @@
+<form class="m-editor" id="meme-editor-view">
+  <ul class="pane-toggle">
+    <li class="content-tab tab" data-pane="content-pane"><h2>Content</h2></li>
+    <li class="design-tab tab" data-pane="design-pane"><h2>Design</h2></li>
+  </ul>
+
+  <div class="content-pane drawer">
+    <textarea id="headline" name="headline" type="text" value=""></textarea>
+    <!-- <input id="credit" name="credit" type="text" value="" placeholder="Subhead text"> -->
+    <label class="breaking-news-label" for="breaking-news">Breaking news</label>
+    <input id="breaking-news" type="checkbox" name="breaking-news" value="">
+    <br>
+    <input class="number-of-lines" id="number-of-lines" name="number-of-lines" type="text" value="1">
+    <label class="number-of-lines-label" for="number-of-lines">Number of lines</label>
+  </div>
+
+  <div class="design-pane drawer">
+
+    <div class="dropzone" id="dropzone">Click or Drag Background Image</div>
+    <input type="file" id="file-input" name="file-input">
+
+    <h4>Resize image</h4>
+    <input id="image-scale" type="range" max="4" min=".01" step=".01" value="1">
+
+    <div class="m-editor__backgroundColor" id="background-color">
+      <h4>Solid Background</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="background-color" value="" checked> Off</label></li>
+      </ul>
+    </div>
+
+    <div class="m-editor__overlay" id="overlay">
+      <h4>Overlay Color</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="overlay" value=""> None</label></li>
+      </ul>
+    </div>
+
+    <h4>Overlay Opacity</h4>
+    <input id="overlay-opacity" type="range" max="1" min=".01" step=".01" value=".5">
+
+    <div class="m-editor__font-color" id="font-color">
+      <h4>Font Color</h4>
+      <ul class="checkbox-group">
+        <li><label><input type="radio" name="font-color" value="#FFF" checked> Default</label></li>
+      </ul>
+    </div>
+  </div>
+
+
+</form>

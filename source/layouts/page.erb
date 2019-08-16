@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <%= partial "partials/head" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <%= javascript_include_tag 'settings' %>
+    <%= javascript_include_tag data.page.javascript if data.page.javascript %>
+  </body>
+</html>

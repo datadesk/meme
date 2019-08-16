@@ -32,7 +32,7 @@ var MEME_SETTINGS = {
     {text: 'Black', value: '#000'}
   ],
 
-  headlineText: 'Write your own headline', // Default headline text.
+  headlineText: 'Headline text', // Default headline text.
   height: 480, // Canvas rendering height.
   width: 880, // Canvas rendering width.
 
@@ -82,7 +82,7 @@ var MEME_SETTINGS = {
     {text: 'Align center', value: 'center'},
     {text: 'Align right', value: 'right'}
   ],
-
+  textAlignVertical: 'Align bottom',
   textShadow: false, // Text shadow toggle.
   textShadowEdit: true, // Toggles text shadow control within the editor.
   watermarkAlpha: 1, // Opacity of watermark image.
@@ -91,6 +91,7 @@ var MEME_SETTINGS = {
   // Path to the watermark image source, or blank for no watermark:
   // Alternatively, use '<%= asset_data_uri("vox.png") %>' to populate the watermark with base64 data, avoiding Cross-Origin issues.
   watermarkSrc: '<%= image_path("logo-lat-stack-white.png") %>',
+  watermarkDark: '<%= image_path("logo-lat-stack-black.png") %>',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
@@ -100,6 +101,4 @@ var MEME_SETTINGS = {
     {text: 'Square black', value: '<%= image_path("logo-lat-stack-black.png") %>', data: ''},
     {text: 'None', value: '', data:''}
   ],
-
-
 };

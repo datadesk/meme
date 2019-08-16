@@ -1,0 +1,23 @@
+$m: '.m-meme';
+
+#{$m} {
+  // Mini-clearfix:
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.m-canvas__download {
+  max-width: 400px;
+  margin-right: auto;
+}
+
+em {
+  font-style: italic;
+  font-family: serif;
+}

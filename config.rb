@@ -20,11 +20,16 @@ end
 ###
 # Config
 ###
+activate :directory_indexes
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :url_prefix, '/'
 set :absolute_prefix, 'http://localhost:4567'
+set :relative_links, true
+
+page "/insta/*", :layout => "page"
+
 
 # Build-specific configuration
 configure :build do
